@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "793677047385",
+    "firebase_url": "https://ctg-dictionary.firebaseio.com",
+    "project_id": "ctg-dictionary",
+    "storage_bucket": "ctg-dictionary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793677047385:android:5ada59b45de23ff546f348",
+        "android_client_info": {
+          "package_name": "com.example.ctgdictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793677047385-mor2uedgq71st3037mv9vgr6cj4mc5j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ctgdictionary",
+            "certificate_hash": "3bff26799ffb398de1bce94a545411f54c3280b7"
+          }
+        },
+        {
+          "client_id": "793677047385-il9mue6rvl9b2t6oiv72or053kf0dnil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-tR6Y4x9YNEOzmbNg9iVoejtwrPxJJTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793677047385-il9mue6rvl9b2t6oiv72or053kf0dnil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="@color/snowWhiteColor"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="375dp"
+            android:layout_height="50dp"
+            android:hint="Search word..."
+            android:layout_marginTop="15dp"
+            android:paddingLeft="15dp"
+            android:elevation="5dp"
+            android:background="@drawable/btn"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="10dp"
+            android:id="@+id/editTextSearch"
+            android:inputType="text"
+            android:maxLength="50"
+
+            />
+
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="5dp"
+            android:text="Search"
+            android:id="@+id/btnSubmit"
+            android:elevation="5dp"
+            android:background="@drawable/btn2"
+            android:textAllCaps="false"
+            android:textColor="@color/snowWhiteColor"
+            android:textSize="20dp"
+
+            />
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="375dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="240dp"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            >
+
+            <TextView
+                android:id="@+id/textViewReasult"
+                android:layout_width="320dp"
+                android:layout_height="80dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:paddingTop="15dp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-medium"
+                android:textIsSelectable="true"
+                />
+
+
+            <Button
+                android:id="@+id/copyBtn"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:drawableRight="@drawable/ic_content_copy_black_24dp"
+                style="?android:attr/borderlessButtonStyle"
+                android:paddingRight="1dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:text="Made with ❤
+
+            from hexabitz lab ©"
+            android:textAlignment="center"
+            android:textColor="@color/common_google_signin_btn_text_light"
+            android:textSize="23dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

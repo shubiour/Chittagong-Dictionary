@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:foreground="?selectableItemBackground"
+    android:layout_margin="2dp"
+    android:clickable="true"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/en_word"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="item 1"/>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,2 @@
+rootProject.name='CTG Dictionary'
+include ':app'
