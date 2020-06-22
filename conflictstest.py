@@ -18,9 +18,9 @@ for key in senderList:
 bigvalue = 0
 bigKey = None
 
-for key,value in senderDict.items():
-    if  value > bigvalue:
-        bigvalue = value
+for key,Value in senderDict.items():
+    if  Value > bigvalue:
+        bigvalue = Value
         bigKey = key
 
 print(bigKey,bigvalue)
