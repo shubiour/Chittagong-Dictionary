@@ -19,7 +19,7 @@ bigvalue = 0
 bigKey = None
 
 for key,value in senderDict.items():
-    if  value > bigvalue:
+    if  bigvalue < value :
         bigvalue = value
         bigKey = key
 
